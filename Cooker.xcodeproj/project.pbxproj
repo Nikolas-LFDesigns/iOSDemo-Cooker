@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178CEAE3192DA9150053C135 /* RMCFileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CEAE2192DA9150053C135 /* RMCFileTools.m */; };
+		178CEAE6192DAE9A0053C135 /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 178CEAE5192DAE9A0053C135 /* SMXMLDocument.m */; };
+		179000111927C47600DEA2CB /* recipes in Resources */ = {isa = PBXBuildFile; fileRef = 1790000F1927C46500DEA2CB /* recipes */; };
+		17C150FA19224C2300DC8EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C150F919224C2300DC8EF8 /* Foundation.framework */; };
+		17C150FC19224C2300DC8EF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C150FB19224C2300DC8EF8 /* CoreGraphics.framework */; };
+		17C150FE19224C2300DC8EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C150FD19224C2300DC8EF8 /* UIKit.framework */; };
+		17C1510419224C2300DC8EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C1510219224C2300DC8EF8 /* InfoPlist.strings */; };
+		17C1510619224C2300DC8EF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C1510519224C2300DC8EF8 /* main.m */; };
+		17C1510A19224C2300DC8EF8 /* RMCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C1510919224C2300DC8EF8 /* RMCAppDelegate.m */; };
+		17C1510D19224C2300DC8EF8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C1510B19224C2300DC8EF8 /* Main_iPhone.storyboard */; };
+		17C1511019224C2300DC8EF8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C1510E19224C2300DC8EF8 /* Main_iPad.storyboard */; };
+		17C1511319224C2300DC8EF8 /* RMCAddToDoListItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C1511219224C2300DC8EF8 /* RMCAddToDoListItemViewController.m */; };
+		17C1511519224C2300DC8EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C1511419224C2300DC8EF8 /* Images.xcassets */; };
+		17C1511C19224C2300DC8EF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C1511B19224C2300DC8EF8 /* XCTest.framework */; };
+		17C1511D19224C2300DC8EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C150F919224C2300DC8EF8 /* Foundation.framework */; };
+		17C1511E19224C2300DC8EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C150FD19224C2300DC8EF8 /* UIKit.framework */; };
+		17C1512619224C2300DC8EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C1512419224C2300DC8EF8 /* InfoPlist.strings */; };
+		17C1512819224C2300DC8EF8 /* CookerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C1512719224C2300DC8EF8 /* CookerTests.m */; };
+		17D1EBAD1922FB330090930D /* RMCToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D1EBAC1922FB330090930D /* RMCToDoListTableViewController.m */; };
+		17D6A6BB1924EAAB0072C798 /* RMCRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D6A6BA1924EAAB0072C798 /* RMCRecipe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C1511F19224C2300DC8EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C150EE19224C2300DC8EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C150F519224C2300DC8EF8;
+			remoteInfo = Cooker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178CEAE1192DA9150053C135 /* RMCFileTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCFileTools.h; sourceTree = "<group>"; };
+		178CEAE2192DA9150053C135 /* RMCFileTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCFileTools.m; sourceTree = "<group>"; };
+		178CEAE4192DAE9A0053C135 /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		178CEAE5192DAE9A0053C135 /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		1790000F1927C46500DEA2CB /* recipes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = recipes; sourceTree = "<group>"; };
+		17C150F619224C2300DC8EF8 /* Cooker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C150F919224C2300DC8EF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17C150FB19224C2300DC8EF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17C150FD19224C2300DC8EF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17C1510119224C2300DC8EF8 /* Cooker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cooker-Info.plist"; sourceTree = "<group>"; };
+		17C1510319224C2300DC8EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17C1510519224C2300DC8EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17C1510719224C2300DC8EF8 /* Cooker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cooker-Prefix.pch"; sourceTree = "<group>"; };
+		17C1510819224C2300DC8EF8 /* RMCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMCAppDelegate.h; sourceTree = "<group>"; };
+		17C1510919224C2300DC8EF8 /* RMCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMCAppDelegate.m; sourceTree = "<group>"; };
+		17C1510C19224C2300DC8EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		17C1510F19224C2300DC8EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		17C1511119224C2300DC8EF8 /* RMCAddToDoListItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMCAddToDoListItemViewController.h; sourceTree = "<group>"; };
+		17C1511219224C2300DC8EF8 /* RMCAddToDoListItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMCAddToDoListItemViewController.m; sourceTree = "<group>"; };
+		17C1511419224C2300DC8EF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17C1511A19224C2300DC8EF8 /* CookerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C1511B19224C2300DC8EF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17C1512319224C2300DC8EF8 /* CookerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookerTests-Info.plist"; sourceTree = "<group>"; };
+		17C1512519224C2300DC8EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17C1512719224C2300DC8EF8 /* CookerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookerTests.m; sourceTree = "<group>"; };
+		17D1EBAB1922FB330090930D /* RMCToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCToDoListTableViewController.h; sourceTree = "<group>"; };
+		17D1EBAC1922FB330090930D /* RMCToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCToDoListTableViewController.m; sourceTree = "<group>"; };
+		17D6A6B91924EAAB0072C798 /* RMCRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCRecipe.h; sourceTree = "<group>"; };
+		17D6A6BA1924EAAB0072C798 /* RMCRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCRecipe.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C150F319224C2300DC8EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C150FC19224C2300DC8EF8 /* CoreGraphics.framework in Frameworks */,
+				17C150FE19224C2300DC8EF8 /* UIKit.framework in Frameworks */,
+				17C150FA19224C2300DC8EF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C1511719224C2300DC8EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C1511C19224C2300DC8EF8 /* XCTest.framework in Frameworks */,
+				17C1511E19224C2300DC8EF8 /* UIKit.framework in Frameworks */,
+				17C1511D19224C2300DC8EF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178CEADD192DA6400053C135 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				178CEAE4192DAE9A0053C135 /* SMXMLDocument.h */,
+				178CEAE5192DAE9A0053C135 /* SMXMLDocument.m */,
+				178CEAE1192DA9150053C135 /* RMCFileTools.h */,
+				178CEAE2192DA9150053C135 /* RMCFileTools.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		17C150ED19224C2300DC8EF8 = {
+			isa = PBXGroup;
+			children = (
+				17C150FF19224C2300DC8EF8 /* Cooker */,
+				17C1512119224C2300DC8EF8 /* CookerTests */,
+				17C150F819224C2300DC8EF8 /* Frameworks */,
+				17C150F719224C2300DC8EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C150F719224C2300DC8EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C150F619224C2300DC8EF8 /* Cooker.app */,
+				17C1511A19224C2300DC8EF8 /* CookerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C150F819224C2300DC8EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C150F919224C2300DC8EF8 /* Foundation.framework */,
+				17C150FB19224C2300DC8EF8 /* CoreGraphics.framework */,
+				17C150FD19224C2300DC8EF8 /* UIKit.framework */,
+				17C1511B19224C2300DC8EF8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C150FF19224C2300DC8EF8 /* Cooker */ = {
+			isa = PBXGroup;
+			children = (
+				1790000F1927C46500DEA2CB /* recipes */,
+				17D6A6B91924EAAB0072C798 /* RMCRecipe.h */,
+				17D6A6BA1924EAAB0072C798 /* RMCRecipe.m */,
+				178CEADD192DA6400053C135 /* utils */,
+				17C1510819224C2300DC8EF8 /* RMCAppDelegate.h */,
+				17C1510919224C2300DC8EF8 /* RMCAppDelegate.m */,
+				17C1510B19224C2300DC8EF8 /* Main_iPhone.storyboard */,
+				17D1EBAB1922FB330090930D /* RMCToDoListTableViewController.h */,
+				17D1EBAC1922FB330090930D /* RMCToDoListTableViewController.m */,
+				17C1510E19224C2300DC8EF8 /* Main_iPad.storyboard */,
+				17C1511119224C2300DC8EF8 /* RMCAddToDoListItemViewController.h */,
+				17C1511219224C2300DC8EF8 /* RMCAddToDoListItemViewController.m */,
+				17C1511419224C2300DC8EF8 /* Images.xcassets */,
+				17C1510019224C2300DC8EF8 /* Supporting Files */,
+			);
+			path = Cooker;
+			sourceTree = "<group>";
+		};
+		17C1510019224C2300DC8EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C1510119224C2300DC8EF8 /* Cooker-Info.plist */,
+				17C1510219224C2300DC8EF8 /* InfoPlist.strings */,
+				17C1510519224C2300DC8EF8 /* main.m */,
+				17C1510719224C2300DC8EF8 /* Cooker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17C1512119224C2300DC8EF8 /* CookerTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C1512719224C2300DC8EF8 /* CookerTests.m */,
+				17C1512219224C2300DC8EF8 /* Supporting Files */,
+			);
+			path = CookerTests;
+			sourceTree = "<group>";
+		};
+		17C1512219224C2300DC8EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17C1512319224C2300DC8EF8 /* CookerTests-Info.plist */,
+				17C1512419224C2300DC8EF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C150F519224C2300DC8EF8 /* Cooker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C1512B19224C2300DC8EF8 /* Build configuration list for PBXNativeTarget "Cooker" */;
+			buildPhases = (
+				17C150F219224C2300DC8EF8 /* Sources */,
+				17C150F319224C2300DC8EF8 /* Frameworks */,
+				17C150F419224C2300DC8EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cooker;
+			productName = Cooker;
+			productReference = 17C150F619224C2300DC8EF8 /* Cooker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C1511919224C2300DC8EF8 /* CookerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C1512E19224C2300DC8EF8 /* Build configuration list for PBXNativeTarget "CookerTests" */;
+			buildPhases = (
+				17C1511619224C2300DC8EF8 /* Sources */,
+				17C1511719224C2300DC8EF8 /* Frameworks */,
+				17C1511819224C2300DC8EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C1512019224C2300DC8EF8 /* PBXTargetDependency */,
+			);
+			name = CookerTests;
+			productName = CookerTests;
+			productReference = 17C1511A19224C2300DC8EF8 /* CookerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C150EE19224C2300DC8EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Redmond;
+				TargetAttributes = {
+					17C1511919224C2300DC8EF8 = {
+						TestTargetID = 17C150F519224C2300DC8EF8;
+					};
+				};
+			};
+			buildConfigurationList = 17C150F119224C2300DC8EF8 /* Build configuration list for PBXProject "Cooker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C150ED19224C2300DC8EF8;
+			productRefGroup = 17C150F719224C2300DC8EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C150F519224C2300DC8EF8 /* Cooker */,
+				17C1511919224C2300DC8EF8 /* CookerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C150F419224C2300DC8EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179000111927C47600DEA2CB /* recipes in Resources */,
+				17C1511019224C2300DC8EF8 /* Main_iPad.storyboard in Resources */,
+				17C1511519224C2300DC8EF8 /* Images.xcassets in Resources */,
+				17C1510D19224C2300DC8EF8 /* Main_iPhone.storyboard in Resources */,
+				17C1510419224C2300DC8EF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C1511819224C2300DC8EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C1512619224C2300DC8EF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C150F219224C2300DC8EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D1EBAD1922FB330090930D /* RMCToDoListTableViewController.m in Sources */,
+				178CEAE6192DAE9A0053C135 /* SMXMLDocument.m in Sources */,
+				17C1510619224C2300DC8EF8 /* main.m in Sources */,
+				178CEAE3192DA9150053C135 /* RMCFileTools.m in Sources */,
+				17C1511319224C2300DC8EF8 /* RMCAddToDoListItemViewController.m in Sources */,
+				17D6A6BB1924EAAB0072C798 /* RMCRecipe.m in Sources */,
+				17C1510A19224C2300DC8EF8 /* RMCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C1511619224C2300DC8EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C1512819224C2300DC8EF8 /* CookerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C1512019224C2300DC8EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C150F519224C2300DC8EF8 /* Cooker */;
+			targetProxy = 17C1511F19224C2300DC8EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C1510219224C2300DC8EF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C1510319224C2300DC8EF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17C1510B19224C2300DC8EF8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C1510C19224C2300DC8EF8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		17C1510E19224C2300DC8EF8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C1510F19224C2300DC8EF8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		17C1512419224C2300DC8EF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C1512519224C2300DC8EF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C1512919224C2300DC8EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C1512A19224C2300DC8EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C1512C19224C2300DC8EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cooker/Cooker-Prefix.pch";
+				INFOPLIST_FILE = "Cooker/Cooker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17C1512D19224C2300DC8EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cooker/Cooker-Prefix.pch";
+				INFOPLIST_FILE = "Cooker/Cooker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17C1512F19224C2300DC8EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cooker.app/Cooker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cooker/Cooker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CookerTests/CookerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17C1513019224C2300DC8EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cooker.app/Cooker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cooker/Cooker-Prefix.pch";
+				INFOPLIST_FILE = "CookerTests/CookerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C150F119224C2300DC8EF8 /* Build configuration list for PBXProject "Cooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C1512919224C2300DC8EF8 /* Debug */,
+				17C1512A19224C2300DC8EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C1512B19224C2300DC8EF8 /* Build configuration list for PBXNativeTarget "Cooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C1512C19224C2300DC8EF8 /* Debug */,
+				17C1512D19224C2300DC8EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C1512E19224C2300DC8EF8 /* Build configuration list for PBXNativeTarget "CookerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C1512F19224C2300DC8EF8 /* Debug */,
+				17C1513019224C2300DC8EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C150EE19224C2300DC8EF8 /* Project object */;
+}
