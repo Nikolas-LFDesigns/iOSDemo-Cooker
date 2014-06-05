@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RMCToDoItem.h"
 
 @interface RMCAddToDoListItemViewController : UIViewController
-
-@property RMCToDoItem *toDoItem;
 
 @end
